@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    font-family: Ubuntu, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+nav ul{
+    display: flex;
+    height: 65px;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.logoimg img{
+    width: 44px;
+    padding-right: 3px;
+}
+
+.logoimg{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.F5 a {
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    min-height: 72vh;
+    width: 75vw;
+    font-family: varela, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+    display: flex;
+    margin: 23px auto;
+    padding: 10px;
+    border-radius: 12px;
+    background-image: url("/background/bg.jpg");
+    background-size: cover;
+}
+
+.Bottom{
+    position: sticky;
+    height: 130px;
+    background: linear-gradient(135deg, hsla(0, 12%, 49%, 0.967), hsla(199, 41%, 52%, 0.914));
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#F5{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 12px;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+    height: 42px;
+    background: linear-gradient(67deg, #46749c, #ac5d6f ) ;
+    border-radius: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    margin: 12px 0;
+}
+
+.songItem img{
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    padding: 12px 7.67px;
+}
+
+.F7 {
+    margin: 0 15px;
+}
+
+.F7 i{
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.bottomSongInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bottomSongInfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+#F8{
+    position: relative;
+    bottom: 3px;
+}
